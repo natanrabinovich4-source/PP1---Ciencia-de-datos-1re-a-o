@@ -44,7 +44,7 @@ Los hogares con mayores ingresos tendrán un mayor acceso a Internet que los hog
 
 Para realizar el proyecto se utiliza un data set con 1000 hogares generado aleatoriamente con Python para este proyecto en particular.
 
-**Son datos generados para fines academicos, bajo ningun concepto se utilizan para otros fines.**
+**Son datos generados para fines academicos, bajo ningun concepto se utilizaran para otros fines.**
 
 Las variables utilizadas toman como referencia la nomenclatura de la Encuesta Permanente de Hogares (EPH) y permiten analizar información económica, educativa, geográfica y tecnológica de los hogares.
 
@@ -118,4 +118,20 @@ II7	Indica si el hogar tiene acceso a Internet
 * Visual Studio Code
 * Excel
 * librerias : Panda, Numpy , Matplotlib, Github.
+
+----------------
+
+## Metodologia de trabajo
+
+* Generación y carga del dataset.
+* Exploración inicial de los datos.
+* Identificación de valores faltantes y datos que necesitan ser tratados.
+* Limpieza y preparación de los datos.
+* Generación de un dataset limpio.
+* Análisis estadístico de las principales variables.
+* Cruce de variables económicas, educativas y tecnológicas.
+* Generación de gráficos.
+* Análisis de los resultados.
+* Evaluación de las hipótesis planteadas.
+* Elaboración de conclusiones y posibles recomendaciones.
 
