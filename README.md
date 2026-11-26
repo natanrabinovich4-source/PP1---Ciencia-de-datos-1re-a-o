@@ -18,3 +18,9 @@ Este proyecto busca analizar la brecha digital en Argentina y ver cómo distinta
 Para este trabajo se utilizará Python para generar,preparar y limpiar los datos, realizar analisis estadisticos y generar graficos que permitan interpretar mejor los resultados.
 
 ------------------------------
+
+## Objetivos
+
+* Analizar la influencias de las condiciones social - economicas sobre el acceso a las tegnológias.
+
+* Identificar posibles diferencias en el acceso a computadoras e Internet y determinar qué factores tienen una mayor relación con la brecha digital.
