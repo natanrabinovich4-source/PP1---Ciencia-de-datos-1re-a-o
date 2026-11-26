@@ -111,3 +111,11 @@ II7	Indica si el hogar tiene acceso a Internet
 9 = Sin respuesta
 
 ----------------
+
+## Herramientas utilizadas
+
+* Python
+* Visual Studio Code
+* Excel
+* librerias : Panda, Numpy , Matplotlib, Github.
+
