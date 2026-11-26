@@ -40,4 +40,74 @@ Los hogares con mayores ingresos tendrán un mayor acceso a Internet que los hog
 
 -------------------------------------------------
 
+## Data Set
 
+Para realizar el proyecto se utiliza un data set con 1000 hogares generado aleatoriamente con Python para este proyecto en particular.
+
+**Son datos generados para fines academicos, bajo ningun concepto se utilizan para otros fines.**
+
+Las variables utilizadas toman como referencia la nomenclatura de la Encuesta Permanente de Hogares (EPH) y permiten analizar información económica, educativa, geográfica y tecnológica de los hogares.
+
+El archivo inicial utilizado es:
+
+Datasetinicial.cvs
+
+------------------------------
+
+## Variables
+
+**Variable	Descripción**
+
+CODUSU	Identificador del hogar
+
+REGION	Región donde se encuentra el hogar
+
+IX_TOT	Cantidad de integrantes del hogar
+
+NIVEL_ED	Nivel educativo del jefe/a de hogar
+
+ITF	Ingreso Total Familiar
+
+DECIFR	Decil de ingreso familiar
+
+IV12_3	Indica si el hogar posee computadora o laptop
+
+II7	Indica si el hogar tiene acceso a Internet
+
+**Regiones**
+
+1 = GBA
+
+40 = NOA
+
+41 = NEA
+
+42 = Cuyo
+
+43 = Pampeana
+
+44 = Patagonia
+
+**Nivel educativo**
+
+1 = Primaria incompleta
+
+2 = Primaria completa
+
+3 = Secundaria incompleta
+
+4 = Secundaria completa
+
+5 = Superior/Universitaria completa
+
+9 = Sin respuesta
+
+**Tenencia de computadora e Internet**
+
+1 = Sí
+
+2 = No
+
+9 = Sin respuesta
+
+----------------
