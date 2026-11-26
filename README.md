@@ -135,3 +135,37 @@ II7	Indica si el hogar tiene acceso a Internet
 * Evaluación de las hipótesis planteadas.
 * Elaboración de conclusiones y posibles recomendaciones.
 
+  -------------------
+  ## Paso a Paso
+  **Exploracion de los datos:**
+
+Los códigos 9 presentes en las variables NIVEL_ED, IV12_3 e II7 fueron considerados como "Sin respuesta" y se transformaron en valores nulos (NaN) para evitar que fueran interpretados como valores válidos durante los análisis estadísticos.
+
+Los registros con información faltante no fueron eliminados completamente, ya que pueden contener datos útiles para otros análisis. En cada análisis se utilizarán únicamente los registros que tengan información válida para las variables estudiadas.
+Luego de la limpieza se generó el archivo df_clean.csv, manteniendo el dataset original sin modificaciones.
+
+**Analisis Estadisticos de las principales variables**
+
+Luego de realizar la limpieza se comenzó con un análisis exploratorio para conocer mejor el comportamiento de las principales variables.
+
+Ingreso Total Familiar
+El Ingreso Total Familiar (ITF) presenta los siguientes resultados:
+
+Media: $773.680
+
+Mediana: $604.132
+
+Mínimo: $67.039
+
+Máximo: $5.884.802
+
+Desvío estándar: $576.672
+
+Primer cuartil (25%): $403.629
+
+Tercer cuartil (75%): $977.464
+
+Al comparar la media con la mediana se observa que la media es mayor. En el histograma también se puede ver una concentración de hogares en los ingresos más bajos y una cola hacia los ingresos más altos. (grafica Asimetrica positiva)
+
+El boxplot muestra varios valores extremos en la parte superior de la distribución. Estos valores se conservaron para el análisis, ya que no necesariamente representan errores en los datos.
+
