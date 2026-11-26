@@ -24,3 +24,20 @@ Para este trabajo se utilizará Python para generar,preparar y limpiar los datos
 * Analizar la influencias de las condiciones social - economicas sobre el acceso a las tegnológias.
 
 * Identificar posibles diferencias en el acceso a computadoras e Internet y determinar qué factores tienen una mayor relación con la brecha digital.
+
+-------------------
+
+## Hipotesis
+
+### Hipótesis 1: Ingresos y computadora
+Los hogares que se encuentran en los deciles de mayores ingresos tendrán una mayor presencia de computadoras o laptops.
+
+### Hipótesis 2: Educación e Internet
+Los hogares donde el jefe/a de hogar tiene un mayor nivel educativo tendrán un mayor acceso a Internet.
+
+### Hipótesis 3: Ingresos e Internet
+Los hogares con mayores ingresos tendrán un mayor acceso a Internet que los hogares de menores ingresos.
+
+-------------------------------------------------
+
+
