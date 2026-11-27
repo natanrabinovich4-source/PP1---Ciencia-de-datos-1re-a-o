@@ -169,3 +169,57 @@ Al comparar la media con la mediana se observa que la media es mayor. En el hist
 
 El boxplot muestra varios valores extremos en la parte superior de la distribución. Estos valores se conservaron para el análisis, ya que no necesariamente representan errores en los datos.
 
+## Analisis multivariable
+
+**Hipotesis 1: Ingresos y computadora**
+
+Se estudio la relacion que existe entre la variable ingreso vs la tenencia de computadora. para ello se creo una tabla de contingencia comparando las variables y se grafico lineal.
+
+En el decil 1, el 40,66% de los hogares cuenta con computadora o laptop, mientras que en el decil 10 este porcentaje aumenta al 91,30%.
+
+Se observa una tendencia general a que los hogares ubicados en los deciles más altos (hogares con mayor ingreso) presentan un mayor acceso a computadoras.
+
+Por este motivo, los resultados respaldan la hipótesis planteada.
+
+**Hipotesis 2 : Nivel educativo e internet**
+
+Se estudio la relacion que existe entre la variable nivel de ingreso vs acceso a internet. para ello se creo una tabla de contingencia comparando las variables y se grafico con un grafico de barra.
+
+Los resultados muestran una relación clara entre el nivel educativo y el acceso a Internet.
+
+En los hogares con nivel educativo de primaria incompleta, el 43,90% cuenta con acceso a Internet. Este porcentaje aumenta a medida que sube el nivel educativo, llegando al 97,71% en el nivel superior/universitario completo.
+
+Los resultados muestran una tendencia creciente en todos los niveles analizados, por lo que respaldan la hipótesis planteada.
+
+**Hipotesis 3 : Ingresos e internet**
+
+Se estudio la relacion que existe entre la variable Ingresos vs acceso a internet. para ello se creo una tabla de contingencia comparando las variables y se grafico con un grafico lineal.
+
+Los resultados muestran una relación entre el nivel de ingreso y el acceso a Internet.
+
+En el decil 1, el 57,14% de los hogares cuenta con acceso a Internet, mientras que en el decil 10 el porcentaje alcanza el 95,70%.
+
+Si bien existen algunas variaciones entre deciles, se observa una tendencia general donde los hogares de mayores ingresos presentan un mayor acceso a Internet.
+
+Los resultados respaldan la hipótesis planteada.
+
+**Analisis complementario : Acceso a internet y tenencia de computadora por region**
+
+Se comparo la influencia de la variable Region respecto al acceso a internet y tenencia de computadora.
+Para ello se creo dos tablas de comparacion para tomar cada variable por separado, pero no se demuestra que la region puede influenciar en el acceso a internet o la tenencia de computadora.
+
+**Analisis complementario : Matriz de correlacion**
+
+Se realizo una matriz de correlacion entre las principales variables para determinar la correlacion que existe entre las principales variables, arrojando la siguiente comparacion:
+
+Nivel educativo e ingreso familiar: 0,66.
+
+Nivel educativo y decil de ingreso: 0,72.
+
+Nivel educativo y acceso a Internet: 0,33.
+
+Decil de ingreso y tenencia de computadora: 0,30.
+
+Decil de ingreso y acceso a Internet: 0,32.
+
+
