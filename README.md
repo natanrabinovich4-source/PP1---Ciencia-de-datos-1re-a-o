@@ -13,7 +13,7 @@
 
 ## Descripción del proyecto
 
-Este proyecto busca analizar la brecha digital en Argentina y ver cómo distintas condiciones de los hogares pueden influenciar el acceso a la tecnológia. Comparando factores como los ingresos, el nivel educativo y la región donde se encuentra el hogar para determinar si tienen relación con la posibilidad de contar con una computadora y conexión a Internet.
+Este proyecto busca analizar la brecha digital en Argentina y ver cómo distintas condiciones de los hogares pueden estar relacionado con el acceso a la tecnológia. Comparando factores como los ingresos, el nivel educativo y la región donde se encuentra el hogar para determinar si tienen relación con la posibilidad de contar con una computadora y conexión a Internet.
 
 Para este trabajo se utilizará Python para generar,preparar y limpiar los datos, realizar analisis estadisticos y generar graficos que permitan interpretar mejor los resultados.
 
@@ -21,7 +21,7 @@ Para este trabajo se utilizará Python para generar,preparar y limpiar los datos
 
 ## Objetivos
 
-* Analizar la influencias de las condiciones social - economicas sobre el acceso a las tegnológias.
+* Analizar la influencias de las condiciones socioeconomicas y el acceso a las tegnológias.
 
 * Identificar posibles diferencias en el acceso a computadoras e Internet y determinar qué factores tienen una mayor relación con la brecha digital.
 
@@ -44,13 +44,13 @@ Los hogares con mayores ingresos tendrán un mayor acceso a Internet que los hog
 
 Para realizar el proyecto se utiliza un data set con 1000 hogares generado aleatoriamente con Python para este proyecto en particular.
 
-**Son datos generados para fines academicos, bajo ningun concepto se utilizaran para otros fines.**
+**Son datos fueron generados para fines academicosy los resultados no representan estimaciones reales de la población argentina.**
 
 Las variables utilizadas toman como referencia la nomenclatura de la Encuesta Permanente de Hogares (EPH) y permiten analizar información económica, educativa, geográfica y tecnológica de los hogares.
 
 El archivo inicial utilizado es:
 
-Datasetinicial.cvs
+Datasetinicial.csv
 
 ------------------------------
 
@@ -117,7 +117,9 @@ II7	Indica si el hogar tiene acceso a Internet
 * Python
 * Visual Studio Code
 * Excel
-* librerias : Panda, Numpy , Matplotlib, Github.
+* Github
+* Google Ecolab
+* librerias de python : Panda, Numpy , Matplotlib.
 
 ----------------
 
@@ -135,9 +137,10 @@ II7	Indica si el hogar tiene acceso a Internet
 * Evaluación de las hipótesis planteadas.
 * Elaboración de conclusiones y posibles recomendaciones.
 
-  -------------------
   ## Paso a Paso
-  **Exploracion de los datos:**
+  ---------------------
+  
+  ## Exploracion y limpieza de los datos
 
 Los códigos 9 presentes en las variables NIVEL_ED, IV12_3 e II7 fueron considerados como "Sin respuesta" y se transformaron en valores nulos (NaN) para evitar que fueran interpretados como valores válidos durante los análisis estadísticos.
 
@@ -145,6 +148,8 @@ Los registros con información faltante no fueron eliminados completamente, ya q
 Luego de la limpieza se generó el archivo df_clean.csv, manteniendo el dataset original sin modificaciones.
 
 **Analisis Estadisticos de las principales variables**
+
+**Ingreso total**
 
 Luego de realizar la limpieza se comenzó con un análisis exploratorio para conocer mejor el comportamiento de las principales variables.
 
@@ -165,11 +170,11 @@ Primer cuartil (25%): $403.629
 
 Tercer cuartil (75%): $977.464
 
-Al comparar la media con la mediana se observa que la media es mayor. En el histograma también se puede ver una concentración de hogares en los ingresos más bajos y una cola hacia los ingresos más altos. (grafica Asimetrica positiva)
+Al comparar la media con la mediana se observa que la media es mayor. En el histograma también se puede ver una concentración de hogares en los ingresos más bajos y una cola hacia los ingresos más altos. formando una distribucion  Asimetrica positiva
 
 El boxplot muestra varios valores extremos en la parte superior de la distribución. Estos valores se conservaron para el análisis, ya que no necesariamente representan errores en los datos.
 
-## Analisis multivariable
+## Analisis bivariado
 
 **Hipotesis 1: Ingresos y computadora**
 
@@ -183,7 +188,7 @@ Por este motivo, los resultados respaldan la hipótesis planteada.
 
 **Hipotesis 2 : Nivel educativo e internet**
 
-Se estudio la relacion que existe entre la variable nivel de ingreso vs acceso a internet. para ello se creo una tabla de contingencia comparando las variables y se grafico con un grafico de barra.
+Se estudio la relacion que existe entre la variable nivel de nivel educativo vs acceso a internet. para ello se creo una tabla de contingencia comparando las variables y se grafico con un grafico de barra.
 
 Los resultados muestran una relación clara entre el nivel educativo y el acceso a Internet.
 
@@ -206,11 +211,11 @@ Los resultados respaldan la hipótesis planteada.
 **Analisis complementario : Acceso a internet y tenencia de computadora por region**
 
 Se comparo la influencia de la variable Region respecto al acceso a internet y tenencia de computadora.
-Para ello se creo dos tablas de comparacion para tomar cada variable por separado, pero no se demuestra que la region puede influenciar en el acceso a internet o la tenencia de computadora.
+Para ello se creo dos tablas de comparacion para tomar cada variable por separado, pero no se observa que la region puede influenciar en el acceso a internet o la tenencia de computadora.
 
 **Analisis complementario : Matriz de correlacion**
 
-Se realizo una matriz de correlacion entre las principales variables para determinar la correlacion que existe entre las principales variables, arrojando la siguiente comparacion:
+Se realizó una matriz de correlación para analizar de forma complementaria la relación entre las principales variables:
 
 Nivel educativo e ingreso familiar: 0,66.
 
@@ -222,7 +227,10 @@ Decil de ingreso y tenencia de computadora: 0,30.
 
 Decil de ingreso y acceso a Internet: 0,32.
 
+Estas correlaciones representan asociaciones entre las variables y no implican necesariamente relaciones de causa y efecto.
+
 ## Principales hallazgos
+-----------------------
 
 A partir de los análisis realizados se encontraron tres resultados principales:
 
@@ -237,6 +245,8 @@ En cambio, las diferencias encontradas entre las regiones fueron relativamente p
 En conjunto, los resultados muestran que las diferencias económicas y educativas tienen una relación más marcada con el acceso tecnológico que la región geográfica.
 
 ## Limitaciones del estudio
+----------------------------
+
 El dataset utilizado fue generado de forma sintética con fines académicos, tomando como referencia variables y codificaciones utilizadas en la Encuesta Permanente de Hogares (EPH).
 
 Por este motivo, los resultados obtenidos sirven para practicar y demostrar el proceso de análisis de datos, pero no deben interpretarse como estimaciones reales de la situación de la población argentina.
@@ -244,6 +254,7 @@ Por este motivo, los resultados obtenidos sirven para practicar y demostrar el p
 El objetivo del proyecto es aplicar un proceso completo de ciencia de datos que incluya generación, limpieza, exploración, análisis, visualización e interpretación de la información.
 
 ## Conclusion
+-------------------------------
 
 El análisis permitió identificar una relación entre las condiciones socioeconómicas y educativas de los hogares y su acceso a la tecnología.
 
@@ -252,5 +263,32 @@ Las tres hipótesis planteadas fueron respaldadas por los resultados del dataset
 Dentro de los datos analizados, las diferencias relacionadas con ingresos y educación fueron más marcadas que las diferencias encontradas entre regiones.
 
 Estos resultados permiten observar cómo el análisis de datos puede utilizarse para identificar grupos con diferentes niveles de acceso tecnológico y ayudar a orientar posibles medidas de inclusión digital.
+
+## Instalacion y ejecución
+
+El proyecto fue desarrollado utilizando las siguientes herramientas:
+
+**Python 3.15.2:** utilizado para ejecutar los scripts y realizar el procesamiento y análisis de los datos.
+
+**Visual Studio Code 1.148:** utilizado como entorno de desarrollo.
+
+**Extensiones de Visual Studio Code:** se instalaron las herramientas necesarias para trabajar con Python.
+
+**GitHub:** utilizado para almacenar el proyecto y registrar su desarrollo.
+
+**Google Colab:** utilizado como herramienta complementaria para trabajar con notebooks.
+
+Las librerías utilizadas en Python fueron:
+
+* pandas
+* NumPy
+* Matplotlib
+
+Estas librerías se instalaron desde la terminal mediante:
+
+python -m pip install pandas numpy matplotlib
+
+Una vez preparado el entorno, se ejecutaron los scripts correspondientes a la generación del dataset, limpieza, análisis estadístico y creación de gráficos.
+
 
 
