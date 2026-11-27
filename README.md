@@ -222,4 +222,35 @@ Decil de ingreso y tenencia de computadora: 0,30.
 
 Decil de ingreso y acceso a Internet: 0,32.
 
+## Principales hallazgos
+
+A partir de los análisis realizados se encontraron tres resultados principales:
+
+* El nivel de ingreso está relacionado con la tenencia de computadora. Los hogares de los deciles más altos presentan un mayor acceso a este tipo de equipamiento.
+
+* El nivel educativo presenta una relación clara con el acceso a Internet. El porcentaje de hogares conectados aumenta a medida que aumenta el nivel educativo.
+
+* Los ingresos también están relacionados con el acceso a Internet. Los hogares pertenecientes a los deciles más altos muestran mayores porcentajes de conectividad.
+
+En cambio, las diferencias encontradas entre las regiones fueron relativamente pequeñas dentro de este dataset.
+
+En conjunto, los resultados muestran que las diferencias económicas y educativas tienen una relación más marcada con el acceso tecnológico que la región geográfica.
+
+## Limitaciones del estudio
+El dataset utilizado fue generado de forma sintética con fines académicos, tomando como referencia variables y codificaciones utilizadas en la Encuesta Permanente de Hogares (EPH).
+
+Por este motivo, los resultados obtenidos sirven para practicar y demostrar el proceso de análisis de datos, pero no deben interpretarse como estimaciones reales de la situación de la población argentina.
+
+El objetivo del proyecto es aplicar un proceso completo de ciencia de datos que incluya generación, limpieza, exploración, análisis, visualización e interpretación de la información.
+
+## Conclusion
+
+El análisis permitió identificar una relación entre las condiciones socioeconómicas y educativas de los hogares y su acceso a la tecnología.
+
+Las tres hipótesis planteadas fueron respaldadas por los resultados del dataset. Los hogares con mayores ingresos mostraron un mayor acceso a computadoras e Internet, mientras que los hogares con mayores niveles educativos también presentaron mayores porcentajes de conectividad.
+
+Dentro de los datos analizados, las diferencias relacionadas con ingresos y educación fueron más marcadas que las diferencias encontradas entre regiones.
+
+Estos resultados permiten observar cómo el análisis de datos puede utilizarse para identificar grupos con diferentes niveles de acceso tecnológico y ayudar a orientar posibles medidas de inclusión digital.
+
 
